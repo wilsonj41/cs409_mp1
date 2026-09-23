@@ -608,3 +608,25 @@ nav {
 
 
 }
+
+// Keep the final link comfortably inside the viewport on 768px-wide tablets.
+@media (max-width: 768px) {
+    nav {
+        #title img {
+            width: min(34vw, 260px);
+        }
+
+        &.is-compact #title img {
+            width: min(30vw, 220px);
+        }
+
+        .nav-links {
+            gap: 3px;
+
+            .nav-link {
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 116" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">TS — Through the Eras</title>
+  <desc id="logo-desc">An elegant TS Through the Eras music-era wordmark with stars and a subtle shimmer.</desc>
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b315e"/>
+      <stop offset=".45" stop-color="#bc6685"/>
+      <stop offset="1" stop-color="#d8a63b"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bc6685" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#bc6685"/>
+      <stop offset=".78" stop-color="#d8a63b"/>
+      <stop offset="1" stop-color="#d8a63b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#ink)">
+    <text x="8" y="77" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-style="italic" font-weight="700" letter-spacing="-8">TS</text>
+    <text x="142" y="45" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic" letter-spacing="3">THROUGH</text>
+    <text x="141" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="41" font-style="italic" letter-spacing="1">the Eras</text>
+  </g>
+
+  <path d="M141 94 C255 104 392 103 562 94" fill="none" stroke="url(#line)" stroke-linecap="round" stroke-width="2"/>
+  <g fill="#d8a63b">
+    <path d="M111 21 l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+    <path d="M574 37 l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+    <circle cx="586" cy="65" r="2"/>
+  </g>
+</svg>

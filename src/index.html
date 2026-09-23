@@ -5,9 +5,117 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MP1</title>
+
+        <!-- Font Awesome Kit -->
+        <script src="https://kit.fontawesome.com/618af56931.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <header>
+            <nav>
+                <div id="title">
+                    <img src="assets/ts-through-the-eras-logo.svg" alt="TS — Through the Eras">
+                </div>
+                <div class="nav-links" aria-label="Page sections">
+                    <a class="nav-link active" href="#intro" aria-current="page">Intro</a>
+                    <a class="nav-link" href="#catalog">Catalog</a>
+                    <a class="nav-link" href="#awards">Awards</a>
+                    <a class="nav-link" href="#music_video">Music Video</a>
+                </div>
+            </nav>
+        </header>
+        <section id="intro" class="intro-section">
+            <div class="intro-content">
+                <img class="artist-portrait" src="assets/ts_tloas.jpeg" alt="Taylor Swift on the cover of The Life of a Showgirl">
+                <h1>Taylor Swift</h1>
+                <p>From country beginnings to pop spectacle and indie reflection, Taylor Swift turns personal storytelling into richly imagined musical worlds—each one a new era to explore.</p>
+                <!-- Image source: https://www.architecturaldigest.com/story/taylor-swift-color-theory -->
+            </div>
+        </section>
+        <section id="catalog" class="catalog-section">
+            <div class="catalog-content">
+                <h2>Catalog</h2>
+                <div class="album-carousel" aria-label="Taylor Swift album catalog">
+                    <button class="carousel-button" type="button" data-direction="previous" aria-label="Previous albums" disabled>&lt;</button>
+                    <div class="album-track" tabindex="0">
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Taylor Swift" alt="Taylor Swift album cover"><h3>Taylor Swift</h3><p>2006</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Fearless" alt="Fearless album cover"><h3>Fearless</h3><p>2008</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Speak Now" alt="Speak Now album cover"><h3>Speak Now</h3><p>2010</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Red" alt="Red album cover"><h3>Red</h3><p>2012</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="1989" alt="1989 album cover"><h3>1989</h3><p>2014</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="reputation" alt="Reputation album cover"><h3>Reputation</h3><p>2017</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Lover" alt="Lover album cover"><h3>Lover</h3><p>2019</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="folklore" alt="folklore album cover"><h3>folklore</h3><p>2020</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="evermore" alt="evermore album cover"><h3>evermore</h3><p>2020</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Fearless (Taylor's Version)" alt="Fearless Taylor's Version album cover"><h3>Fearless (Taylor's Version)</h3><p>2021</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Red (Taylor's Version)" alt="Red Taylor's Version album cover"><h3>Red (Taylor's Version)</h3><p>2021</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Midnights" alt="Midnights album cover"><h3>Midnights</h3><p>2022</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="Speak Now (Taylor's Version)" alt="Speak Now Taylor's Version album cover"><h3>Speak Now (Taylor's Version)</h3><p>2023</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="1989 (Taylor's Version)" alt="1989 Taylor's Version album cover"><h3>1989 (Taylor's Version)</h3><p>2023</p></article>
+                        <article class="album-card"><img class="album-cover" data-itunes-title="THE TORTURED POETS DEPARTMENT" alt="The Tortured Poets Department album cover"><h3>The Tortured Poets Department</h3><p>2024</p></article>
+                        <article class="album-card"><img src="https://media.architecturaldigest.com/photos/689f736636f81245e6405858/master/w_1600%2Cc_limit/IMG_2164.jpeg" alt="The Life of a Showgirl album cover"><h3>The Life of a Showgirl</h3><p>2025</p></article>
+                    </div>
+                    <button class="carousel-button" type="button" data-direction="next" aria-label="Next albums">&gt;</button>
+                </div>
+            </div>
+        </section>
+        <section id="awards" class="awards-section">
+            <div class="awards-content">
+                <h2>Awards</h2>
+                <div class="award-columns">
+                    <div class="award-stat">
+                        <strong>14</strong>
+                        <span>Grammy Awards</span>
+                    </div>
+                    <div class="award-stat">
+                        <strong>40</strong>
+                        <span>American Music Awards</span>
+                    </div>
+                    <div class="award-stat">
+                        <strong>49</strong>
+                        <span>Billboard Music Awards</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="music_video" class="video-section">
+            <div class="video-content">
+                <h2>Music Video</h2>
+                <video controls poster="https://media.architecturaldigest.com/photos/689f736636f81245e6405858/master/w_1600%2Cc_limit/IMG_2164.jpeg">
+                    <source src="https://superprimefilms.com/wp-content/uploads/2021/11/USUMV2102373_I_Bet_You_Think_About_Me_featuring_Chris_Stapleton_Explicit_Version-1-1.mp4" type="video/mp4">
+                    Your browser does not support embedded video.
+                </video>
+            </div>
+        </section>
+        <footer class="site-footer" aria-label="Site footer">
+            <div class="footer-content">
+                <a href="https://x.com/taylorswift13">
+                    <i class="fa-brands fa-square-x-twitter social-icon"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g">
+                    <i class="fa-brands fa-youtube social-icon"></i>
+                </a>
+                <a href="https://www.facebook.com/TaylorSwift/">
+                    <i class="fa-brands fa-facebook social-icon"></i>
+                </a>
+                <a href="https://www.tiktok.com/@taylorswift">
+                    <i class="fa-brands fa-tiktok social-icon"></i>
+                </a>
+            </div>
+        </footer>
+        <div class="album-modal" aria-hidden="true" aria-labelledby="modal-album-title" role="dialog" aria-modal="true" hidden>
+            <div class="modal-panel">
+                <button class="modal-close" type="button" aria-label="Close album details">×</button>
+                <div class="modal-album-info">
+                    <img class="modal-cover" alt="">
+                    <h2 id="modal-album-title"></h2>
+                    <p class="modal-release-year"></p>
+                </div>
+                <div class="modal-tracks">
+                    <h3>Track list</h3>
+                    <ol class="track-list"></ol>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
